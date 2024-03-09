@@ -1,0 +1,1021 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="final.css">
+</head>
+
+<body>
+    <div id="fixed">
+        <div class="hero">
+            <video autoplay muted loop id="bgvid" src="./bgvideo.mp4"></video>
+            <nav>
+                <div id="lists">
+                    <ul>
+                        <li id="logo">Movie</li>
+                        <li>Home</li>
+                        <li>Watchlist</li>
+                        <li>Genre</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+                <div id="lists2">
+                    <ul>
+                        <div id="svglogo">
+
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-bell" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6" />
+                                </svg></li>
+                        </div>
+                        <li id="hlo">Sign In</li>
+                        
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="baars">
+
+                <div id="sideimg">
+                    <div class="image-container">
+                        <img id="img1" src="" alt="" class="hi">
+                        <div class="tooltip">
+                            <h1 id="t1" class="t"></h1>
+                            <div style="display: flex;">
+                                <button id="but00" class="btn"></button>
+                                <button id="but01" class="btn"></button>
+                            </div>
+                            <div style="display: flex; gap: 10px;">
+                                <img src="1.png" alt="" style="width: 40px; margin: 0; vertical-align: middle;">
+                                <p class="a4" id="x1" style="margin: 0; align-self: center;"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container">
+
+                        <img src="" id="img2" alt="">
+                        <div class="tooltip">
+                            <h1 id="t2" class="t"></h1>
+                            <div style="display: flex;">
+                                <button id="but10" class="btn"></button>
+                                <button id="but11" class="btn"></button>
+                            </div>
+                            <div style="display: flex; gap: 10px;">
+                                <img src="1.png" alt="" style="width: 40px; margin: 0; vertical-align: middle;">
+                                <p class="a4" id="x2" style="margin: 0; align-self: center;"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="" id="img3" alt="">
+                        <div class="tooltip">
+                            <h1 id="t3" class="t"></h1>
+                            <div style="display: flex;">
+                                <button id="but20" class="btn"></button>
+                                <button id="but21" class="btn"></button>
+                            </div>
+                            <div style="display: flex; gap: 10px;">
+                                <img src="1.png" alt="" style="width: 40px; margin: 0; vertical-align: middle;">
+                                <p class="a4" id="x3" style="margin: 0; align-self: center;"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container">
+
+                        <img src="" id="img4" alt="">
+                        <div class="tooltip">
+                            <h1 id="t4" class="t"></h1>
+                            <div style="display: flex;">
+                                <button id="but30" class="btn"></button>
+                                <button id="but31" class="btn"></button>
+                            </div>
+                            <div style="display: flex; gap: 10px;">
+                                <img src="1.png" alt="" style="width: 40px; margin: 0; vertical-align: middle;">
+                                <p class="a4" id="x4" style="margin: 0; align-self: center;"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+       <div class="a1">
+    <h1>New Release</h1>
+
+    <div id="a2" style="max-width: 100%; background-color: black; display: flex; flex-wrap: wrap; gap: 2rem; margin: 3rem auto;">
+        <img style="max-width: 100%; height: auto; flex: 1 1 400px;" src="" alt="" id="im">
+
+        <div id="a3" style="color: white; flex: 1 1 400px; padding: 0 1rem;">
+            <h1 id="b1" style="font-family: 'Times New Roman', Times, serif; font-size: 2rem; margin: 0;"></h1>
+            <p class="a4" style="word-wrap: break-word; font-size: 1.2rem; margin: 0;" id="b2"></p>
+            <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                <button id="btn0" class="btn"></button>
+                <button id="btn1" class="btn"></button>
+            </div>
+            <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                <img src="1.png" alt="" style="width: 40px; height: auto; margin: 0; vertical-align: middle;">
+                <p class="a4" id="b4" style="margin: 0; align-self: center;"></p>
+            </div>
+            <p class="a4" id="b5"></p>
+        </div>
+    </div>
+</div>
+
+        <div id="rel" style="height: auto;">
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img23" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r11"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n11"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img24" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r12"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n12"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img25" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r13"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n13"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img26" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r14"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n14"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img27" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r15"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n15"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img28" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r16"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n16"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img29" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r17"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n17"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img30" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r18"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n18"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="a1">
+        <h1>Recommendations For You</h1>
+        <div id="recomm" style="height: fit-content; margin: 0;">
+            <div id="poster" style="margin: 1em;">
+                <div  style="margin: 1em;">
+                    <img src="" alt="" id="img11" class="z1">
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r1"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n1"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img12" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r2"> </p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n2"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img13" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r3"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n3"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img14" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r4"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n4"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img15" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r5"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n5"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img16" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r6"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n6"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img17" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r7"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n7"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+            <div id="poster" style="margin: 1em;">
+                <div style="margin: 1rem;">
+                    <img src="" alt="" id="img18" class="z1">
+
+                </div>
+                <div id="first">
+                    <div>
+                        <i class='bx bxs-star' style="color: gold;"></i>
+                        <p id="r8"></p>
+                    </div>
+                </div>
+                <div id="title">
+
+                    <p id="n8"></p>
+                </div>
+                <div id="buttton">
+
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                        <p> Watchlist</p>
+                    </button>
+                </div>
+                <div id="trailer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                    <p>Trailer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="a1">
+            <h1>Popular Now</h1>
+
+            <div id="a2" style="max-width: 100%; background-color: black; display: flex; flex-wrap: wrap; gap: 2rem; margin: 3rem auto;">
+                <img style="max-width: 100%; height: auto; flex: 1 1 400px;" src="" alt="" id="im">
+        
+            </div>
+        </div>
+        
+                <div id="rel" style="height: auto;">
+                    <div id="poster" style="margin: 1em;">
+                        <div style="margin: 1rem;">
+                            <img style="height: 20rem;" src="" alt="" id="img35" class="z1">
+        
+                        </div>
+                        <div id="first">
+                            <div>
+                                <i class='bx bxs-star' style="color: gold;"></i>
+                                <p id="r11"></p>
+                            </div>
+                        </div>
+                        <div id="title">
+        
+                            <p id="n11"></p>
+                        </div>
+                        <div id="buttton">
+        
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                                    class="bi bi-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                </svg>
+                                <p> Watchlist</p>
+                            </button>
+                        </div>
+                        <div id="trailer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                            <p>Trailer</p>
+                        </div>
+                    </div>
+                    <div id="poster" style="margin: 1em;">
+                        <div style="margin: 1rem;">
+                            <img src="" alt="" id="img24" class="z1">
+        
+                        </div>
+                        <div id="first">
+                            <div>
+                                <i class='bx bxs-star' style="color: gold;"></i>
+                                <p id="r12"></p>
+                            </div>
+                        </div>
+                        <div id="title">
+        
+                            <p id="n12"></p>
+                        </div>
+                        <div id="buttton">
+        
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                                    class="bi bi-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                </svg>
+                                <p> Watchlist</p>
+                            </button>
+                        </div>
+                        <div id="trailer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                            <p>Trailer</p>
+                        </div>
+                    </div>
+                    <div id="poster" style="margin: 1em;">
+                        <div style="margin: 1rem;">
+                            <img src="" alt="" id="img25" class="z1">
+        
+                        </div>
+                        <div id="first">
+                            <div>
+                                <i class='bx bxs-star' style="color: gold;"></i>
+                                <p id="r13"></p>
+                            </div>
+                        </div>
+                        <div id="title">
+        
+                            <p id="n13"></p>
+                        </div>
+                        <div id="buttton">
+        
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                                    class="bi bi-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                </svg>
+                                <p> Watchlist</p>
+                            </button>
+                        </div>
+                        <div id="trailer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                            <p>Trailer</p>
+                        </div>
+                    </div>
+                    <div id="poster" style="margin: 1em;">
+                        <div style="margin: 1rem;">
+                            <img src="" alt="" id="img26" class="z1">
+        
+                        </div>
+                        <div id="first">
+                            <div>
+                                <i class='bx bxs-star' style="color: gold;"></i>
+                                <p id="r14"></p>
+                            </div>
+                        </div>
+                        <div id="title">
+        
+                            <p id="n14"></p>
+                        </div>
+                        <div id="buttton">
+        
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                                    class="bi bi-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                </svg>
+                                <p> Watchlist</p>
+                            </button>
+                        </div>
+                        <div id="trailer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                            <p>Trailer</p>
+                        </div>
+                    </div>
+                    <div id="poster" style="margin: 1em;">
+                        <div style="margin: 1rem;">
+                            <img src="" alt="" id="img27" class="z1">
+        
+                        </div>
+                        <div id="first">
+                            <div>
+                                <i class='bx bxs-star' style="color: gold;"></i>
+                                <p id="r15"></p>
+                            </div>
+                        </div>
+                        <div id="title">
+        
+                            <p id="n15"></p>
+                        </div>
+                        <div id="buttton">
+        
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                                    class="bi bi-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                </svg>
+                                <p> Watchlist</p>
+                            </button>
+                        </div>
+                        <div id="trailer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                            <p>Trailer</p>
+                        </div>
+                    </div>
+                    <div id="poster" style="margin: 1em;">
+                        <div style="margin: 1rem;">
+                            <img src="" alt="" id="img28" class="z1">
+        
+                        </div>
+                        <div id="first">
+                            <div>
+                                <i class='bx bxs-star' style="color: gold;"></i>
+                                <p id="r16"></p>
+                            </div>
+                        </div>
+                        <div id="title">
+        
+                            <p id="n16"></p>
+                        </div>
+                        <div id="buttton">
+        
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                                    class="bi bi-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                </svg>
+                                <p> Watchlist</p>
+                            </button>
+                        </div>
+                        <div id="trailer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                            <p>Trailer</p>
+                        </div>
+                    </div>
+                    <div id="poster" style="margin: 1em;">
+                        <div style="margin: 1rem;">
+                            <img src="" alt="" id="img29" class="z1">
+        
+                        </div>
+                        <div id="first">
+                            <div>
+                                <i class='bx bxs-star' style="color: gold;"></i>
+                                <p id="r17"></p>
+                            </div>
+                        </div>
+                        <div id="title">
+        
+                            <p id="n17"></p>
+                        </div>
+                        <div id="buttton">
+        
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                                    class="bi bi-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                </svg>
+                                <p> Watchlist</p>
+                            </button>
+                        </div>
+                        <div id="trailer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                            <p>Trailer</p>
+                        </div>
+                    </div>
+                    <div id="poster" style="margin: 1em;">
+                        <div style="margin: 1rem;">
+                            <img src="" alt="" id="img30" class="z1">
+        
+                        </div>
+                        <div id="first">
+                            <div>
+                                <i class='bx bxs-star' style="color: gold;"></i>
+                                <p id="r18"></p>
+                            </div>
+                        </div>
+                        <div id="title">
+        
+                            <p id="n18"></p>
+                        </div>
+                        <div id="buttton">
+        
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor"
+                                    class="bi bi-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                </svg>
+                                <p> Watchlist</p>
+                            </button>
+                        </div>
+                        <div id="trailer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                            <p>Trailer</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        
+        
+        
+    <script src="1.js"></script>
+
+</body>
+
+</html>
